@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363782394441",
+    "firebase_url": "https://kidsquiz-29105.firebaseio.com",
+    "project_id": "kidsquiz-29105",
+    "storage_bucket": "kidsquiz-29105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363782394441:android:4e3b4926e92c02204d2598",
+        "android_client_info": {
+          "package_name": "com.example.kidsquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363782394441-j4qomhk179gv45039r8j3j461ighgnoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kidsquiz",
+            "certificate_hash": "e05c3346689d09a2e43126e1d2a5f2bfd1cde37f"
+          }
+        },
+        {
+          "client_id": "363782394441-q3m9qhukjfc78jludeeqgn96ilpqoa4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfXOeIuAo8Yqi4dlVf4MhwIQK_wwrL_Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363782394441-q3m9qhukjfc78jludeeqgn96ilpqoa4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

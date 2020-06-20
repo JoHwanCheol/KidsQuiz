@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidsquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".scoreboard"></activity>
+        <activity android:name=".place_10" />
+        <activity android:name=".place_9" />
+        <activity android:name=".place_8" />
+        <activity android:name=".place_7" />
+        <activity android:name=".place_6" />
+        <activity android:name=".place_5" />
+        <activity android:name=".place_4" />
+        <activity android:name=".place_3" />
+        <activity android:name=".place_2" />
+        <activity android:name=".correct_place" />
+        <activity android:name=".dino_10" />
+        <activity android:name=".dino_9" />
+        <activity android:name=".dino_8" />
+        <activity android:name=".dino_7" />
+        <activity android:name=".dino_6" />
+        <activity android:name=".dino_5" />
+        <activity android:name=".dino_4" />
+        <activity android:name=".dino_3" />
+        <activity android:name=".dino_2" />
+        <activity android:name=".correct_dino" />
+        <activity android:name=".food_10" />
+        <activity android:name=".food_9" />
+        <activity android:name=".food_8" />
+        <activity android:name=".food_7" />
+        <activity android:name=".food_6" />
+        <activity android:name=".food_5" />
+        <activity android:name=".food_4" />
+        <activity android:name=".food_3" />
+        <activity android:name=".food_2" />
+        <activity android:name=".correct_food" />
+        <activity android:name=".ride_10" />
+        <activity android:name=".ride_9" />
+        <activity android:name=".ride_8" />
+        <activity android:name=".ride_7" />
+        <activity android:name=".ride_6" />
+        <activity android:name=".ride_5" />
+        <activity android:name=".ride_4" />
+        <activity android:name=".ride_3" />
+        <activity android:name=".ride_2" />
+        <activity android:name=".correct_ride" />
+        <activity android:name=".animal_insect_20" />
+        <activity android:name=".animal_insect_19" />
+        <activity android:name=".animal_insect_18" />
+        <activity android:name=".animal_insect_17" />
+        <activity android:name=".animal_insect_16" />
+        <activity android:name=".animal_insect_15" />
+        <activity android:name=".animal_insect_14" />
+        <activity android:name=".animal_insect_13" />
+        <activity android:name=".animal_insect_12" />
+        <activity android:name=".animal_insect_11" />
+        <activity android:name=".animal_insect_10" />
+        <activity android:name=".animal_insect_9" />
+        <activity android:name=".animal_insect_8" />
+        <activity android:name=".animal_insect_7" />
+        <activity android:name=".animal_insect_6" />
+        <activity android:name=".animal_insect_5" />
+        <activity android:name=".animal_insect_4" />
+        <activity android:name=".animal_insect_3" />
+        <activity android:name=".animal_insect_2" />
+        <activity android:name=".correct_animal" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".fruit_vegetable_20" />
+        <activity android:name=".fruit_vegetable_19" />
+        <activity android:name=".fruit_vegetable_18" />
+        <activity android:name=".fruit_vegetable_17" />
+        <activity android:name=".fruit_vegetable_16" />
+        <activity android:name=".fruit_vegetable_15" />
+        <activity android:name=".fruit_vegetable_14" />
+        <activity android:name=".fruit_vegetable_13" />
+        <activity android:name=".fruit_vegetable_12" />
+        <activity android:name=".fruit_vegetable_11" />
+        <activity android:name=".wrong" />
+        <activity android:name=".fruit_vegetable_10" />
+        <activity android:name=".fruit_vegetable_9" />
+        <activity android:name=".fruit_vegetable_8" />
+        <activity android:name=".fruit_vegetable_7" />
+        <activity android:name=".fruit_vegetable_6" />
+        <activity android:name=".fruit_vegetable_5" />
+        <activity android:name=".fruit_vegetable_4" />
+        <activity android:name=".fruit_vegetable_3" />
+        <activity android:name=".fruit_vegetable_2" />
+        <activity android:name=".correct" />
+        <activity android:name=".contents_list_English" />
+        <activity android:name=".place" />
+        <activity android:name=".dino" />
+        <activity android:name=".food" />
+        <activity android:name=".ride" />
+        <activity android:name=".animal_insect" />
+        <activity android:name=".fruit_vegetable" />
+        <activity android:name=".loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup" />
+        <activity android:name=".language" />
+        <activity android:name=".contents_list" />
+    </application>
+
+</manifest>

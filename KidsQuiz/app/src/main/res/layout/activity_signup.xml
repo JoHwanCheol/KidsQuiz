@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_back"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:fontFamily="@font/maplestorybold"
+        android:textSize="30dp"
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:text="이메일" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textEmailAddress"
+        android:background="#B3FFFFFF" />
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="비밀번호"
+        android:fontFamily="@font/maplestorybold"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_below="@id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword"
+        android:background="#B3FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="이름"
+        android:fontFamily="@font/maplestorybold"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_below="@id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="1dp"
+        android:inputType="textPersonName"
+        android:background="#B3FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/tv_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="전화번호"
+        android:fontFamily="@font/maplestorybold"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/et_tel"
+        android:layout_below="@id/tv_tel"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="1dp"
+        android:background="#B3FFFFFF"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:onClick="createUser"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/signup"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lang_back"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/select_lang" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:onClick="korean_Button"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/korean"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:onClick="English_Button"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/english"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-490dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/backButton"
+        android:onClick="backButton"
+        android:src="@drawable/back"
+        android:background="@android:color/transparent"
+
+        />
+
+</LinearLayout>
